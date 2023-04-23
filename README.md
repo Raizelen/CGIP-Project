@@ -1,8 +1,16 @@
 # CGIP-Project
 Computer Graphics and Image Processing
-Assignment II 
 
-**Team 8**
+## Assignment II 
+Team 8 [36-40]
+
+
+## Team Members
+- 36 Ashwin P Saji
+- 37 Ashwin Sivasankaran [ashwinsk24](https://github.com/ashwinsk24)
+- 38 Aswin Babu
+- 39 Aswin Pradeep
+- 40 Beneeta Ann Jacob
 
 ## Polygon Reflection
 This is a Python program that allows the user to input the coordinates of a polygon, and then reflects it across the line y=x using a 3x3 matrix transformation on:
