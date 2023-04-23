@@ -23,29 +23,38 @@ numpy
 turtle
 ```
 
-
 ## Requirements
 To run this program, you will need:
-```
-Python 3.7+
-NumPy
-PythonTurtle
-Code Editor (VS Code etc..)
-```
+-Python 3.7+
+-NumPy
+-PythonTurtle
+-Code Editor
+
 ## Usage
 - Clone or download the repository to your local machine.
 - Open a terminal and navigate to the directory where you saved the repository.
-- Run the program using the command: python reflect_polygon.py.
+- Run the program using the command: ```python reflected.py```
 - Enter the number of vertices and coordinates of the polygon when prompted.
-- The program will display the original polygon in blue and the reflected polygon in red, with the x and y axes labeled and numbered.
+- The program will display the original polygon in red and the reflected polygon in blue, with the x and y axes labeled.
 
 ## Final Result
+**Input**:
+```
+>python reflected.py
+Enter the number of vertices in the polygon: 3
+Enter x-coordinate of vertex 1: 2
+Enter y-coordinate of vertex 1: 5
+Enter x-coordinate of vertex 2: 5
+Enter y-coordinate of vertex 2: 7
+Enter x-coordinate of vertex 3: 2
+Enter y-coordinate of vertex 3: 8 
+```
+**Output**:
+
+![Final Output](https://user-images.githubusercontent.com/71746986/233854970-cc72d73b-355a-4d5f-92c0-5cd9b6666145.png)
 
 
 
-
-
-## Implementation video
 
 
 
