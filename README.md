@@ -29,6 +29,7 @@ This program requires the following libraries to be installed:
 ```
 numpy
 turtle
+flask (web app)
 ```
 
 ## Requirements
