@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Reflecting Polygons along x=y</title>
+    <style>
+      body {
+        text-align: center;
+      }
+      form {
+        display: inline-block;
+      }
+      #vertices label,
+      #vertices input {
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Reflecting Polygons along y=x</h1>
+    <form action="/" method="POST">
+      <label for="num_vertices">Enter the number of vertices:</label>
+      <input
+        type="number"
+        name="num_vertices"
+        id="num_vertices"
+        required
+        min="2"
+      /><br /><br />
+      <div id="vertices"></div>
+      <input type="submit" value="Reflect" />
+    </form>
+    <script>
+      document
+        .getElementById("num_vertices")
+        .addEventListener("input", function () {
+          var num_vertices = this.value;
+          var vertices_div = document.getElementById("vertices");
+          vertices_div.innerHTML = "";
+          for (var i = 1; i <= num_vertices; i++) {
+            vertices_div.innerHTML +=
+              '<label for="vertex_' +
+              i +
+              '">Vertex ' +
+              i +
+              ':</label>' +
+              '<input type="number" name="vertex_' +
+              i +
+              '_x" id="vertex_' +
+              i +
+              '_x" required step="any">' +
+              '<input type="number" name="vertex_' +
+              i +
+              '_y" id="vertex_' +
+              i +
+              '_y" required step="any"><br>';
+          }
+        });
+    </script>
+  </body>
+</html>
