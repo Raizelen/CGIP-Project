@@ -34,10 +34,10 @@ flask (web app)
 
 ## Requirements
 To run this program, you will need:
--Python 3.7+
--NumPy
--PythonTurtle
--Code Editor
+- Python 3.7+
+- NumPy
+- PythonTurtle
+- Code Editor
 
 ## Usage
 - Clone or download the repository to your local machine.
@@ -62,6 +62,14 @@ Enter y-coordinate of vertex 3: 8
 **Output**:
 
 ![Final Output](https://user-images.githubusercontent.com/71746986/233854970-cc72d73b-355a-4d5f-92c0-5cd9b6666145.png)
+
+**DEMO**
+
+
+
+https://github.com/ashwinsk24/CGIP-Project/assets/71746986/343d881b-ae58-4d59-852b-a3dc91d55660
+
+
 
 
 
